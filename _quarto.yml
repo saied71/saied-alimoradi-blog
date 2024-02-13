@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+execute:
+  freeze: auto
+
+website:
+  title: "asd"
+  favicon: logo.jpg
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/saied71
+      - icon: email
+        href: saied.alimoradi@gmail.com
+
+
+format:
+  html:
+    theme: darkly
+    css: style.css
+    toc: true
+
+
